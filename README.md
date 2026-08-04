@@ -2,12 +2,13 @@
 
 US Travel Advisories MCP.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 912+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
+| `advisories` | List current US State Department travel advisories. Filter by country keyword and/or minimum threat level (1=normal precautions, 2=increased caution, 3=reconsider travel, 4=do not travel). Sorted by threat level (highest first). |
 | `advisory` | Get the current US travel advisory for a single country. Pass the country NAME (recommended), e.g. "Japan", "Mexico". A State Department 2-letter country code also works (note: these are NOT ISO codes — e.g. Japan is "JA"). |
 
 ## Quick Start
@@ -24,7 +25,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 912+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -48,7 +49,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
