@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-travel-advisories",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "US Travel Advisories MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-04b9190cc767b423001bec594bc7e318df695c50e4f5a03aca9e0d2aa77eb161",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-478a45a0d1e28ba2f77207f448ae6afe1941561d146b2d859de089208d95cc4c",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
