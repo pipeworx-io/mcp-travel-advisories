@@ -1,0 +1,43 @@
+[
+  {
+    "name": "advisories",
+    "description": "List current US State Department travel advisories. Filter by country keyword and/or minimum threat level (1=normal precautions, 2=increased caution, 3=reconsider travel, 4=do not travel). Sorted by threat level (highest first).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Country name filter, e.g. \"mexico\", \"france\"."
+        },
+        "level": {
+          "type": "number",
+          "description": "Exact threat level to filter (1-4)."
+        },
+        "min_level": {
+          "type": "number",
+          "description": "Minimum threat level (e.g. 3 → only \"reconsider travel\" and \"do not travel\")."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max advisories to return (1-250, default 50)."
+        }
+      }
+    }
+  },
+  {
+    "name": "advisory",
+    "description": "Get the current US travel advisory for a single country. Pass the country NAME (recommended), e.g. \"Japan\", \"Mexico\". A State Department 2-letter country code also works (note: these are NOT ISO codes — e.g. Japan is \"JA\").",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string",
+          "description": "Country name (recommended), e.g. \"Mexico\". Partial names match."
+        }
+      },
+      "required": [
+        "country"
+      ]
+    }
+  }
+]
