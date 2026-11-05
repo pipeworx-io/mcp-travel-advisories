@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-travel-advisories",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "US Travel Advisories MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "travel-advisories",
     "gatewaySlug": "travel-advisories",
-    "sourceHash": "v1-09d01a534d9828fb0140b412dd8ffc8663c283fe800de4cc9f31bd00d33d9757",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-579b6a0b902e197fc0749277357d5d7665fa0dd680a483e2abcbcec7ad104281",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
